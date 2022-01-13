@@ -19,25 +19,79 @@ nav {
     height: 74px;
 }
 
-nav ul {
-    
-    display: flex;
-    list-style: none;
-   
-}
-nav ul li {
-
-    padding: 10px;
-
-}
-
 nav h2 {
 
     padding-left: 20px;
 
 }
 
+nav ul {
+    
+    display: flex;
+    list-style: none;
+   
+}
+
+nav ul li {
+
+    padding: 10px;
+
+}
+
 a {
     color: white;
     text-decoration: none;
+}
+
+header {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.head-content {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.name-fonction {
+
+    padding-right: 80px;
+
+}
+
+.img-profil {
+
+    border-radius: 50%;
+
+}
+
+header h2 {
+	color: #0475ba;
+}
+
+section {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.first-section {
+
+    background-color: #0475ba;
+    color: white;
+    
+}
+
+.first-div {
+
+    width: 800px;
+    padding: 40px;
+
 }
