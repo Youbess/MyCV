@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("./fonts/Poppins.ttf");
+    
+}
+
+body {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav {
+    color: white;
+    background-color: #0475ba;
+    display: flex;
+    height: 74px;
+}
+
+nav ul {
+    
+    display: flex;
+    list-style: none;
+   
+}
+nav ul li {
+
+    padding: 10px;
+
+}
+
+nav h2 {
+
+    padding-left: 20px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
